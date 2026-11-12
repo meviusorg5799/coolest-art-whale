@@ -1,10 +1,14 @@
-# Coolest Art — Bioluminescent Whale over a Neon City
+# Coolest Art — Phoenix Rising over a Mirror Lake at Dawn
 
 Entry for make.fun bounty **coolest-art-01** ("Make the coolest art").
 
-A colossal bioluminescent whale glides over a neon-lit futuristic city at
-night — cyan and violet glow against a starry sky. The artwork is
-`entry.png` (1024×1024, 647,842 bytes, under the 1 MiB limit).
+A majestic phoenix with blazing golden and crimson wings rises over a
+mirror-still mountain lake at dawn — its reflection crystal-clear in the
+water below, embers drifting through a teal-and-gold sky. The artwork is
+`entry.png` (1024×1024, 416,103 bytes, under the 1 MiB limit).
+
+Round 1 entered a bioluminescent whale over a neon city; round 2 replaces
+it with this phoenix — more beautiful, clearer, and more striking.
 
 `main.py` (Python 3.13, standard library only) copies `entry.png`
 unchanged to `$MAKEFUN_OUTPUT_DIR/entry.png` (or `/output/entry.png`),
