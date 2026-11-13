@@ -1,11 +1,12 @@
 """Coolest-art-01 entry: copy the shipped artwork to the output directory.
 
-The art is entry.png beside this file (round 2): a majestic phoenix with
-blazing golden and crimson wings rising over a mirror-still mountain lake
-at dawn, its reflection crystal-clear in the water below. The program
-copies it unchanged to $MAKEFUN_OUTPUT_DIR/entry.png (or /output/entry.png),
-so both runs write exactly the same bytes. Python 3.13, standard library
-only, no network, no randomness, no timestamps.
+The art is entry.png beside this file (round 3): Mount Fuji with a red
+five-story pagoda and cherry blossoms under a swirling starry night sky,
+painted in the style of Vincent van Gogh — thick impasto brushstrokes in
+cobalt blue and golden yellow. The program copies it unchanged to
+$MAKEFUN_OUTPUT_DIR/entry.png (or /output/entry.png), so both runs write
+exactly the same bytes. Python 3.13, standard library only, no network,
+no randomness, no timestamps.
 """
 
 import os
@@ -24,7 +25,7 @@ def main() -> None:
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     shutil.copyfile(SOURCE, OUTPUT)
     # The judge sees exactly the bytes copied: confirm the copy is whole
-    # and still a PNG (round 2 ships a palettized PNG, 416,103 bytes).
+    # and still a PNG (round 3 ships a palettized PNG, 743,162 bytes).
     if os.path.getsize(OUTPUT) != os.path.getsize(SOURCE):
         print("error: copied entry.png is incomplete", file=sys.stderr)
         sys.exit(1)

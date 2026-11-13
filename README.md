@@ -1,14 +1,16 @@
-# Coolest Art — Phoenix Rising over a Mirror Lake at Dawn
+# Coolest Art — Mount Fuji under a Starry Sky, Van Gogh Style
 
 Entry for make.fun bounty **coolest-art-01** ("Make the coolest art").
 
-A majestic phoenix with blazing golden and crimson wings rises over a
-mirror-still mountain lake at dawn — its reflection crystal-clear in the
-water below, embers drifting through a teal-and-gold sky. The artwork is
-`entry.png` (1024×1024, 416,103 bytes, under the 1 MiB limit).
+Mount Fuji rises behind a red five-story pagoda, framed by cherry
+blossoms, under a swirling starry night sky — painted in the style of
+Vincent van Gogh, with thick impasto brushstrokes in cobalt blue and
+golden yellow. The artwork is `entry.png` (1024×1024, 743,162 bytes,
+under the 1 MiB limit).
 
-Round 1 entered a bioluminescent whale over a neon city; round 2 replaces
-it with this phoenix — more beautiful, clearer, and more striking.
+Round 1 entered a bioluminescent whale over a neon city; round 2 a
+phoenix over a mirror lake; round 3 replaces them with this Japan +
+Van Gogh piece — iconic, clear, and striking.
 
 `main.py` (Python 3.13, standard library only) copies `entry.png`
 unchanged to `$MAKEFUN_OUTPUT_DIR/entry.png` (or `/output/entry.png`),
